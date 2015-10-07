@@ -13,6 +13,8 @@
         <Node Type="5" LinkName="">./index.html</Node>
     </ProjectTreeFirstLevel>
     <!---->
-    <ShowedFiles />
+    <ShowedFiles>
+        <ShowedFileEditor1 FirstVisibleLine="0" CursorPosition="38">./index.html</ShowedFileEditor1>
+    </ShowedFiles>
     <!---->
 </WebEditorProject>
