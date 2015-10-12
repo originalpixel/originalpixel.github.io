@@ -1,0 +1,91 @@
+/*
+header border                 -> #4f4f4e
+title text                     -> #943d30
+header paragraph             -> #9d9d9c
+active nav block text         -> #f9c01c
+active nav block color         -> #422810
+inactive nav block text        -> #f9c01c
+inactive nav block color     -> #212323
+top bottom nav border         -> #181818
+*/
+.header {
+    background-color: #4f4f4e;
+    height: 250px;
+}
+
+.header-title {
+	text-align: center;
+}
+.header-title h1 {
+    line-height: 210px;
+    margin: 0px;
+}
+
+.header .left {
+    color: #943d30; 
+    background-color: rgb(67, 63, 53);
+    height: 100%;
+}
+
+.header .right {
+    background-color: rgb(67, 63, 53);
+    color: #9d9d9c;
+    font-size: 13px;
+    height: 100%;
+}
+.header .right p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top:1.5em;*/
+    top:100%;
+    bottom:100%;
+}
+
+.left-wrapper {
+    margin: 20px 0px 20px 20px;
+    border: 1px solid #4f4f4e;
+    height: 210px;
+}
+.right-wrapper {
+    margin: 20px 20px 20px 0px;
+    border: 1px solid #4f4f4e;
+    border-left: 0px;
+    height: 210px;
+}
+
+.content {
+    background: #212323;
+}
+
+.content .slider {
+    display: inline-block;
+}
+.content .slider img {
+    width: 100%;
+}
+
+.content .nav {
+    background-color: #181818;
+    display: inline-block;
+}
+
+.slider-nav {
+    border-bottom: 3.5px solid #181818;
+    background-color: #212323;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.slider-nav a {
+    color: #943d30;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.slider-nav-active {
+    background-color: #422810;
+}
+.slider-nav-active a {
+    color: #f9c01c;
+}
