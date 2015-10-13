@@ -62,7 +62,8 @@ top bottom nav border         -> #181818
     display: inline-block;
 }
 .content .slider img {
-    max-width: 870px;
+    width: 100%
+	max-width: 870px;
 }
 
 .content .nav {
