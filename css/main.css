@@ -63,6 +63,7 @@ top bottom nav border         -> #181818
     text-align: center;
 }
 .content .slider img {
+    margin-bottom: 10px;
     max-width: 870px;
     width: 100%;
 }
