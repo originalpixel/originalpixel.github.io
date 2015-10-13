@@ -60,10 +60,12 @@ top bottom nav border         -> #181818
 
 .content .slider {
     display: inline-block;
+    text-align: center;
 }
 .content .slider img {
-    width: 100%
-	max-width: 870px;
+    max-width: 870px;
+    width: 100%;
+}
 }
 
 .content .nav {
