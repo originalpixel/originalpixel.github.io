@@ -55,8 +55,7 @@ top bottom nav border         -> #181818
 }
 
 .content {
-    /*background: #212323;*/
-    background: rgb(67, 63, 53);
+    background: #212323;
 }
 
 .content .slider {
@@ -71,15 +70,13 @@ top bottom nav border         -> #181818
 }
 
 .content .nav {
-    /*background-color: #181818;*/
-    background-color: rgb(67, 63, 53);
+    background-color: #181818;
     display: inline-block;
 }
 
 .slider-nav {
     border-bottom: 3.5px solid #181818;
-    /*background-color: #212323;*/
-    background-color: rgb(67, 63, 53);
+    background-color: #212323;
     height: 70px;
     text-align: center;
     line-height: 70px;
